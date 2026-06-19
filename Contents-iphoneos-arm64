@@ -1,3 +1,10 @@
+.							    oldabi
+OldABI.dylib						    oldabi
+ellekit							    oldabi
+jb							    oldabi
+lib							    oldabi
+usr							    oldabi
+var							    oldabi
 var/jb/Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate ellekit
 var/jb/Library/MobileSubstrate/DynamicLibraries		    ellekit
 var/jb/etc/rc.d/ellekit-loader				    ellekit

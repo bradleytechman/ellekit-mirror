@@ -573,3 +573,37 @@ Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
 
+Package: oldabi
+Architecture: iphoneos-arm
+Version: 2.0
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: pool/oldabi_2.0_iphoneos-arm.deb
+Size: 3350
+MD5sum: 302b380f342aaf51d35cf555b59165f8
+SHA1: 3e2df4ecaf71db2939cdb99b6467c78f52282c38
+SHA256: f8c673f78a929b0e68ec95e00d2eeb461b74520570dd8edc77f651ebc15b1983
+SHA512: 6781652a8173113b985fe737131b3d271f39a9b3b27cd382770f3edea4c1147204968fb282e328b40e760754b19c2cf48f1ad4ce6071a9dbef19d9afc08fcbaf
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Name: Legacy arm64e Support
+Author: Nightwind
+
+Package: oldabi
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: Nightwind
+Installed-Size: 68
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: pool/oldabi_2.0_iphoneos-arm64.deb
+Size: 3420
+MD5sum: d670c857d7646d9f762c725f0a170aa5
+SHA1: 2964ccc2659d55ffd2034aab79acca005baff8a5
+SHA256: ea7569ab76740015c873f063cec908a42e7a91a05af81c94970a6f88ca0919be
+SHA512: 1f410b5812fe4d7746ad126aafc27689c22b012fccea700e7245297f4f7ee11e8c3549c881695b3305ca8c28483c889d4c57871327cd4a41b24d1e416caceecc
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Name: Legacy arm64e Support
+Author: Nightwind
+

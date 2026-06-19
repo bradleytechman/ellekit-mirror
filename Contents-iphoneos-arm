@@ -1,6 +1,11 @@
+.							    oldabi
 Library/Frameworks/CydiaSubstrate.framework/CydiaSubstrate  ellekit
 Library/MobileSubstrate/DynamicLibraries		    ellekit
+OldABI.dylib						    oldabi
+ellekit							    oldabi
 etc/rc.d/ellekit-loader					    ellekit
+lib							    oldabi
+usr							    oldabi
 usr/lib/TweakInject.dylib				    ellekit
 usr/lib/TweakLoader.dylib				    ellekit
 usr/lib/ellekit/MobileSafety.dylib			    ellekit
