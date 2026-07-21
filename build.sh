@@ -40,13 +40,13 @@ done
 apt-ftparchive \
     --contents \
     -o APT::FTPArchive::Release::Origin="ElleKit" \
-    -o APT::FTPArchive::Release::Label="Official ElleKit builds" \
+    -o APT::FTPArchive::Release::Label="Mirror of ElleKit builds" \
     -o APT::FTPArchive::Release::Suite="stable" \
     -o APT::FTPArchive::Release::Version="1.0" \
     -o APT::FTPArchive::Release::Codename="ellekit" \
     -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 darwin-amd64 darwin-arm64" \
     -o APT::FTPArchive::Release::Components="main" \
-    -o APT::FTPArchive::Release::Description="Official ElleKit repo." \
+    -o APT::FTPArchive::Release::Description="Mirror of the ElleKit repo." \
     release $OUTPUT_DIR >$OUTPUT_DIR/Release
 
 gpg -vabs -u $GPG_KEY -o $OUTPUT_DIR/Release.gpg $OUTPUT_DIR/Release
